@@ -51,7 +51,7 @@ Used in Breadth-First Search to explore nodes in a first-in-first-out manner.
 * ### states: the position of each of the eight number in the grid.
 * ### Start state: The user input which is inserted through the CLI.
 * ### actions : down, up ,right, left
-* ### transition model: search algorithms, which are bfs, iddfs, A*, gbfs, for each state returns the path of each it takes from the current state to the goal state.
+* ### transition model: search algorithms, which are bfs, iddfs, A*, gbfs, for each state returns the path of which it takes from the current state to the goal state.
 
 
 ## Heuristic Description & Admissible  and Consistent Explanation
