@@ -74,7 +74,7 @@ Yes, A* search is optimal when using an admissible heuristic, meaning it never o
 No, GBFS relies solely on the heuristic value ( h(n) ) for each state, developing nodes that appear closest to the goal. It does not account for the cumulative cost of reaching each state, which can lead to suboptimal paths, hence not guarantee an optimal solution.
 
 ## Running Directly from CLI:
-provide the initial state as 9 space-separated numbers (0 represents the blank tile).
+provide the starting state as 9 space-separated numbers (0 represents the blank tile).
 
 ```python main.py <input>```
 
